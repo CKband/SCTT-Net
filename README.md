@@ -5,7 +5,7 @@ The former Autoformer and auxiliary attention source files are retained for trac
 
 
 - The global branch is an encoder-decoder Transformer.
-- The local branch is a causal dilated TCN.
+- The local branch is TCN.
 - The Basic Gate uses a two-hidden-layer MLP with PCP, SW, and PET.
 - The Physical Gate uses the current state and 3-day and 7-day memories.
 - The learnable coefficient is `lambda = sigmoid(theta)`.
